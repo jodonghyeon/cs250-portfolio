@@ -31,10 +31,8 @@
 
 <body>
     <header>
-        <div>
-            <p style="font-size:40px"> <strong>
-                std::cout << &ensp; "Dongyeon Jo &ensp;\n";</strong>
-            </p>
+        <div class="logo">
+            <img src="../img/cout.jpg" alt>
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
@@ -71,17 +69,18 @@
 
     <div class="portfolio-item-individual">
         <h2>Project Overview</h2>
-        <p>Provide a brief description of the project, its purpose, and what you aimed to achieve.</p>
+        <p>In this assignment, I implemented Procedural Meshes, which are commonly used in 3D graphics modeling.</p>
 
         <h2>Tasks Completed</h2>
         <ul>
-            <li>Describe the tasks you completed for this project.</li>
-            <li>Be specific about your contributions and the technologies used.</li>
+            <li>I implemented functions to generate meshes of spheres, toruses, cylinders, and cones depending on the number of stacks and slices.</li>
+            <li>I first implemented a helper function that generates an index buffer based on stacks and slices, and used it to implement functions that generate meshes. I also implemented a function that generates an index buffer needed to draw a line pattern, and a function that generates vertices with position, normal, and texture coordinate information on a plane.</li>
         </ul>
 
         <h2>Reflection</h2>
-        <p>Reflect on the project, discussing any challenges faced, solutions implemented, and what you learned from the
-            experience.</p>
+        <p>During development, I learned that Procedural Meshes are generated based on stacks and slices, and that the vertices of typical Procedural Meshes contain position, normal vector, and texture coordinates.
+            
+        </p>
     </div>
 
     <div class="portfolio-item-individual">
@@ -91,15 +90,15 @@
 
     <!-- Footer -->
     <footer class="footer">
-        <a href="mailto:my.email@digipen.edu" class="footer__link">my.email@digipen.edu</a>
+        <a href="mailto:donghyeon.jo@digipen.edu" class="footer__link">donghyeon.jo@digipen.edu</a>
         <ul class="social-list">
             <li class="social-list__item">
-                <a class="social-list__link" href="https://linkedin.com/in/mylinkedinid">
+                <a class="social-list__link" href="https://www.linkedin.com/in/donghyeon-jo-44472b349/">
                     <i class="fab fa-linkedin"></i>
                 </a>
             </li>
             <li class="social-list__item">
-                <a class="social-list__link" href="https://github.com/mygithubid">
+                <a class="social-list__link" href="https://github.com/jodonghyeon">
                     <i class="fab fa-github"></i>
                 </a>
             </li>
